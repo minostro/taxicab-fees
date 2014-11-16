@@ -1,0 +1,195 @@
+# This file is distributed under the same license as the Django package.
+#
+# Translators:
+# Milton Inostroza <minostro@minostro.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: taxicab-admin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-16 05:04+0000\n"
+"PO-Revision-Date: 2014-11-16 11:36+0000\n"
+"Last-Translator: Milton Inostroza <minostro@minostro.com>\n"
+"Language-Team: Spanish)\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: fees/admin.py:18
+msgid "Sorry, but editing is NOT ALLOWED"
+msgstr "Lo sentimos, pero no tiene permisos para modificar."
+
+#: fees/apps.py:6
+msgid "Fees"
+msgstr "Cuotas"
+
+#: fees/models.py:13
+msgid "January"
+msgstr "Enero"
+
+#: fees/models.py:14
+msgid "February"
+msgstr "Febrero"
+
+#: fees/models.py:15
+msgid "March"
+msgstr "Marzo"
+
+#: fees/models.py:16
+msgid "April"
+msgstr "Abril"
+
+#: fees/models.py:17
+msgid "May"
+msgstr "Mayo"
+
+#: fees/models.py:18
+msgid "June"
+msgstr "Junio"
+
+#: fees/models.py:19
+msgid "July"
+msgstr "Julio"
+
+#: fees/models.py:20
+msgid "August"
+msgstr "Agosto"
+
+#: fees/models.py:21
+msgid "September"
+msgstr "Septiembre"
+
+#: fees/models.py:22
+msgid "October"
+msgstr "Octubre"
+
+#: fees/models.py:23
+msgid "November"
+msgstr "Noviembre"
+
+#: fees/models.py:24
+msgid "December"
+msgstr "Diciembre"
+
+#: fees/models.py:27
+msgid "taxicab"
+msgstr "colectivos"
+
+#: fees/models.py:28
+msgid "month"
+msgstr "mes"
+
+#: fees/models.py:29
+msgid "year"
+msgstr "año"
+
+#: fees/models.py:30
+msgid "amount"
+msgstr "monto"
+
+#: fees/models.py:31
+msgid "created at"
+msgstr "creado"
+
+#: fees/models.py:32
+msgid "updated at"
+msgstr "actualizado"
+
+#: fees/models.py:62
+msgid "paid"
+msgstr "pagado"
+
+#: fees/models.py:79
+msgid "fee"
+msgstr "cuota"
+
+#: fees/models.py:80
+msgid "fees"
+msgstr "cuotas"
+
+#: fees/models.py:90
+msgid "payment"
+msgstr "pago"
+
+#: fees/models.py:91
+msgid "payments"
+msgstr "pagos"
+
+#: mantenedor/models.py:6
+msgid "number"
+msgstr "número"
+
+#: mantenedor/models.py:7
+msgid "monthly fee amount"
+msgstr "monto cuota mensual"
+
+#: mantenedor/models.py:13
+msgid "line"
+msgstr "línea"
+
+#: mantenedor/models.py:14
+msgid "lines"
+msgstr "líneas"
+
+#: mantenedor/models.py:18
+msgid "name"
+msgstr "nombre"
+
+#: mantenedor/models.py:19
+msgid "surname"
+msgstr "apellido"
+
+#: mantenedor/models.py:20
+msgid "personal id"
+msgstr "cédula de identidad"
+
+#: mantenedor/models.py:26
+msgid "person"
+msgstr "dueño"
+
+#: mantenedor/models.py:27
+msgid "people"
+msgstr "dueños"
+
+#: mantenedor/models.py:34
+msgid "ppu"
+msgstr "placa patente única"
+
+#: mantenedor/models.py:35
+msgid "motor number"
+msgstr "número de motor"
+
+#: mantenedor/models.py:36
+msgid "chasis number"
+msgstr "número de chasis"
+
+#: mantenedor/models.py:37
+msgid "serie number"
+msgstr "número de serie"
+
+#: mantenedor/models.py:38
+#, fuzzy
+#| msgid "number"
+msgid "vin number"
+msgstr "número"
+
+#: mantenedor/models.py:39
+msgid "inscription date"
+msgstr "fecha de inscripción"
+
+#: mantenedor/models.py:40
+msgid "internal identifier"
+msgstr "identificador interno"
+
+#: mantenedor/models.py:41
+msgid "check up expires at"
+msgstr "vencimiento revisión técnica"
+
+#: mantenedor/models.py:47
+msgid "taxiscab"
+msgstr "colectivo"
+
+#: mantenedor/models.py:48
+msgid "taxicabs"
+msgstr "colectivos"
