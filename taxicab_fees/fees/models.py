@@ -33,9 +33,11 @@ class BaseModel(models.Model):
 
   def period(self):
     return "{0}-{1}".format(self.month, self.year)
+  period.short_description = _('period')
 
   def taxicab_owner(self):
     return self.taxicab.belongs_to
+  taxicab_owner.short_description = _('taxicab owner')
 
   class Meta:
     abstract = True
@@ -69,6 +71,7 @@ class Fee(BaseModel):
 
   def payments_total_amount(self):
     return sum(map(lambda payment: payment.amount, self.payment_set.all()))
+  payments_total_amount.short_description = _('payments total amount')
 
   def __unicode__(self):
     return u"{0} | {1}".format(self.period(), self.taxicab)

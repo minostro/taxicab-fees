@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: taxicab-admin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-16 05:04+0000\n"
+"POT-Creation-Date: 2014-11-22 17:57+0000\n"
 "PO-Revision-Date: 2014-11-16 11:36+0000\n"
 "Last-Translator: Milton Inostroza <minostro@minostro.com>\n"
 "Language-Team: Spanish)\n"
@@ -96,23 +96,35 @@ msgstr "creado"
 msgid "updated at"
 msgstr "actualizado"
 
-#: fees/models.py:62
+#: fees/models.py:36
+msgid "period"
+msgstr "periodo"
+
+#: fees/models.py:40
+msgid "taxicab owner"
+msgstr "dueño"
+
+#: fees/models.py:64
 msgid "paid"
 msgstr "pagado"
 
-#: fees/models.py:79
+#: fees/models.py:74
+msgid "payments total amount"
+msgstr "total pagado"
+
+#: fees/models.py:82
 msgid "fee"
 msgstr "cuota"
 
-#: fees/models.py:80
+#: fees/models.py:83
 msgid "fees"
 msgstr "cuotas"
 
-#: fees/models.py:90
+#: fees/models.py:93
 msgid "payment"
 msgstr "pago"
 
-#: fees/models.py:91
+#: fees/models.py:94
 msgid "payments"
 msgstr "pagos"
 
@@ -124,7 +136,7 @@ msgstr "número"
 msgid "monthly fee amount"
 msgstr "monto cuota mensual"
 
-#: mantenedor/models.py:13
+#: mantenedor/models.py:13 mantenedor/models.py:32
 msgid "line"
 msgstr "línea"
 
@@ -152,6 +164,10 @@ msgstr "dueño"
 msgid "people"
 msgstr "dueños"
 
+#: mantenedor/models.py:31
+msgid "belongs to"
+msgstr "dueño"
+
 #: mantenedor/models.py:34
 msgid "ppu"
 msgstr "placa patente única"
@@ -169,27 +185,21 @@ msgid "serie number"
 msgstr "número de serie"
 
 #: mantenedor/models.py:38
-#, fuzzy
-#| msgid "number"
-msgid "vin number"
-msgstr "número"
-
-#: mantenedor/models.py:39
 msgid "inscription date"
 msgstr "fecha de inscripción"
 
-#: mantenedor/models.py:40
+#: mantenedor/models.py:39
 msgid "internal identifier"
 msgstr "identificador interno"
 
-#: mantenedor/models.py:41
+#: mantenedor/models.py:40
 msgid "check up expires at"
 msgstr "vencimiento revisión técnica"
 
-#: mantenedor/models.py:47
+#: mantenedor/models.py:46
 msgid "taxiscab"
 msgstr "colectivo"
 
-#: mantenedor/models.py:48
+#: mantenedor/models.py:47
 msgid "taxicabs"
 msgstr "colectivos"

@@ -28,8 +28,8 @@ class Person(models.Model):
 
 
 class Taxicab(models.Model):
-  belongs_to = models.ForeignKey(Person, related_name="belongs_to")
-  line = models.ForeignKey(Line)
+  belongs_to = models.ForeignKey(Person, related_name='belongs_to', verbose_name=_('belongs to'))
+  line = models.ForeignKey(Line, verbose_name=_('line'))
 
   ppu = models.CharField(_('ppu'), max_length=100)
   motor_number = models.CharField(_('motor number'), max_length=100)
